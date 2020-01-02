@@ -60,4 +60,31 @@ body {
 #sideMenu nav a.active .fa {
   color: #92cf48;
 }
+
+header {
+  margin-left: 280px;
+  padding: 10px;
+}
+
+header .search-area {
+  display: inline-block;
+}
+
+header .search-area .fa {
+  color: #eaedf3;
+}
+
+header .search-area input[type="text"] {
+  background: transparent;
+  border: none;
+  font-size: 1.3rem;
+  color: #92cf48;
+  padding: 10px;
+  font-weight: 100;
+}
+
+header .user-area {
+  display: inline-block;
+  float: right;
+}
 /*# sourceMappingURL=main.css.map */

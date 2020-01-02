@@ -61,3 +61,27 @@ body {
         }
     }
 }
+
+header {
+    margin-left: 280px;
+    padding: 10px;
+
+    .search-area{
+        display: inline-block;
+        .fa {
+            color: $darkGrey;
+        }
+        input[type="text"] {
+            background: transparent;
+            border: none;
+            font-size: 1.3rem;
+            color: $neonGreen;
+            padding: 10px;
+            font-weight: 100;
+        }
+    }
+    .user-area {
+        display: inline-block;
+        float: right;
+    }
+}
