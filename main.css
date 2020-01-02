@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background: #f4f6f9;
+  background: #eaedf3;
 }
 
 #sideMenu {
@@ -64,7 +64,7 @@ body {
 header {
   margin-left: 280px;
   padding: 10px;
-  background: #eaedf3;
+  background: #f4f6f9;
 }
 
 header .search-area {
@@ -89,7 +89,7 @@ header .search-area input[type="text"] {
 }
 
 header .search-area input[type="text"]:hover {
-  background: #f4f6f9;
+  background: #eaedf3;
 }
 
 header .user-area {
@@ -152,5 +152,10 @@ input:focus,
 input:active {
   background: #f4f6f9;
   outline: none;
+}
+
+#content-area {
+  margin-left: 280px;
+  padding: 15px;
 }
 /*# sourceMappingURL=main.css.map */

@@ -13,7 +13,7 @@ $darkGrey: #eaedf3;
 
 body {
     font-family: 'Roboto', sans-serif;
-    background: $lightGrey;
+    background: $darkGrey;
 }
 
 #sideMenu {
@@ -65,7 +65,7 @@ body {
 header {
     margin-left: 280px;
     padding: 10px;
-    background: $darkGrey;
+    background: $lightGrey;
 
     .search-area{
         display: inline-block;
@@ -83,7 +83,7 @@ header {
             width: 80%;
             transition: all 0.5s ease-in-out;
             &:hover {
-                background: $lightGrey;
+                background: $darkGrey;
             }
         }
     }
@@ -143,4 +143,9 @@ input:focus,
 input:active{
     background: $lightGrey;
     outline: none;
+}
+
+#content-area {
+    margin-left: 280px;
+    padding: 15px;
 }
